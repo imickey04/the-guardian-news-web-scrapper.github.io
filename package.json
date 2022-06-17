@@ -1,0 +1,30 @@
+{
+  "name": "web-scrapper",
+  "version": "1.0.0",
+  "description": "This is a web scraping project to get all the today's headline of The Guardian News Paper",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imickey04/the-guardian-news-web-scrapper.github.io.git"
+  },
+  "keywords": [
+    "web",
+    "scrapper"
+  ],
+  "author": "Mayank Chanbhatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imickey04/the-guardian-news-web-scrapper.github.io/issues"
+  },
+  "homepage": "https://github.com/imickey04/the-guardian-news-web-scrapper.github.io#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
